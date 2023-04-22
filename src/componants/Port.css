@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    scroll-behavior: smooth;
+    color: white;
+    background-color: rgb(25 72 53 / 89%);
+    /* font-family: 'Bungee', cursive; */
+    font-family: 'Averia Serif Libre', cursive;
+    list-style: none;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.links a{
+    text-decoration: none;
+    font-size: bold;
+    color: black;
+    padding: 10px;
+}
+.scroll-btn{
+    display: inline;
+    position: fixed;
+    right: 4%;
+    bottom: 2%;
+    border-radius: 5px;
+    background: #718dfb;
+    padding: 5px;
+}
+.below-nav{
+    background: #afa6a6;
+    width: 100%;
+    height: 30px;
+    position: sticky;
+    top: 0%;
+}
+.below-nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+}
+.main-nav{
+    position: sticky;
+    top: 0%;
+    transition: 1s ease;
+}
+.html{
+    height: 25px;
+    width: 90%;
+    background-size: 100%;
+    background-color: rgb(248, 70, 70);
+    border-radius: 0 10px 10px 0;
+    margin: 0 0 10px;
+    text-align: right;
+    font-size: 16px;
+    color: white;
+    animation: 4s increase  ease;
+}
+
+@keyframes increase {
+    0%{
+        width: 0%;
+    }
+    100%{
+    background-color: rgb(248, 70, 70);
+        width: 90%;
+    }
+}
+.css{
+    height: 25px;
+    width: 80%;
+    background-color: rgb(90, 128, 231);
+    border-radius: 0 10px 10px 0;
+    margin: 0 0 10px;
+    text-align: right;
+    font-size: 16px;
+    color: white;
+    animation: 4s css  ease;
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+    background-color: rgb(90, 128, 231);
+        width: 80%;
+    }
+}
+.javascript{
+    height: 25px;
+    width: 60%;
+    background-color: rgb(135, 121, 121);
+    border-radius: 0 10px 10px 0;
+    margin: 0 0 10px;
+    text-align: right;
+    font-size: 16px;
+    color: white;
+    animation: 4s javascript  ease;
+}
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+    background-color: rgb(135, 121, 121);
+        width: 60%;
+    }
+}
+.bootstrap{
+    height: 25px;
+    width: 85%;
+    background-color: rgb(220, 230, 86);
+    border-radius: 0 10px 10px 0;
+    margin: 0 0 10px;
+    text-align: right;
+    font-size: 16px;
+    color: white;
+    animation: 4s bootstrap  ease;
+}
+@keyframes bootstrap {
+    0%{
+        width: 0%;
+    }
+    100%{
+    background-color: rgb(220, 230, 86);
+        width: 85%;
+    }
+}
+
+.react{
+    height: 25px;
+    width: 65%;
+    background-color: rgb(255, 0, 85);
+    border-radius: 0 10px 10px 0;
+    margin: 0 0 10px;
+    text-align: right;
+    font-size: 16px;
+    color: white;
+    animation: 4s react  ease;
+}
+@keyframes react {
+    0%{
+        width: 0%;
+    }
+    100%{
+    background-color: rgb(255, 0, 85);
+        width: 65%;
+    }
+}
+.node{
+    height: 25px;
+    width: 75%;
+    background-color: rgb(0, 251, 255);
+    border-radius: 0 10px 10px 0;
+    margin: 0 0 10px;
+    text-align: right;
+    font-size: 16px;
+    color: white;
+    animation: 4s node  ease;
+}
+@keyframes node {
+    0%{
+        width: 0%;
+    }
+    100%{
+    background-color: rgb(0, 251, 255);
+        width: 75%;
+    }
+}
+.express{
+    height: 25px;
+    width: 80%;
+    background-color: rgb(172, 249, 142);
+    border-radius: 0 10px 10px 0;
+    margin: 0 0 10px;
+    text-align: right;
+    font-size: 16px;
+    color: white;
+    animation: 4s express  ease;
+}
+@keyframes express {
+    0%{
+        width: 0%;
+    }
+    100%{
+    background-color: rgb(172, 249, 142);
+        width: 80%;
+    }
+}
+.mysql{
+    height: 25px;
+    width: 90%;
+    background-color: rgb(250, 129, 212);
+    border-radius: 0 10px 10px 0;
+    margin: 0 0 10px;
+    text-align: right;
+    font-size: 16px;
+    color: white;
+    animation: 4s mysql  ease;
+}
+@keyframes mysql {
+    0%{
+        width: 0%;
+    }
+    100%{
+        background-color: rgb(250, 129, 212);
+        width: 90%;
+    }
+}
+.html-text{
+    text-align: left;
+}
+.downNav{
+    display: flex;
+    left: 40%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    position: fixed;
+    bottom: 2%;
+    margin: 0 0 0 0px;
+    padding: 0px 20px 0px 20px;
+    background-color: rgb(244, 93, 85);
+    border-radius: 10px;
+}
+.downNav ul li a p{
+    padding: 15px;
+    border-radius: 30%;
+    margin: 5px;
+}
+.downNav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.downNav ul li a:visited{
+    background-color: rgb(174, 165, 165);
+}
+.downNav ul li a :hover{
+    background-color: rgb(174, 165, 165);
+    transition: 0.5s ease;
+
+}
+.project-block{
+    display: flex;
+    background : linear-gradient(90deg, rgb(113, 113, 231), rgb(131, 235, 131));
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.project-1{
+    display: inline-block;
+    justify-content: center;
+}
+@media (max-width: 600px) {
+    .project-block{
+        display: flex;
+        background : linear-gradient(90deg, rgb(113, 113, 231), rgb(131, 235, 131));
+        margin: 20px;
+        width: 50px;
+        height: 50px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .project-1{
+       height: 5px;
+       width: 5px;
+    }
+  }
